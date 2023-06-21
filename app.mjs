@@ -9,7 +9,7 @@ import axios from "axios";
 
 import { Configuration, OpenAIApi } from "openai";
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "XXX",
 });
 const openai = new OpenAIApi(configuration);
 ffmpeg.setFfmpegPath(ffmpegPath.path);
