@@ -35,7 +35,8 @@ I will send you a text from a voice-to-text transcription. The text will include
 I want you to interpret what should be the task title, what should be the description (if any) and what is the due date. The date may be relative, so I'll provide you what is today's date in ISO format: ${today}.
 Today is ${day}.
 
-I want you to respond with a JSON object with the following structure. Don't include anything more in the response. It should start with { and end with }.
+I want you to respond with a JSON object with the following structure. Don't include anything more in the response. It should start with { and end with }:
+{
     "title": "<task title>",
     "description": "<task description or empty string>",
     "due": "due date in ISO format or empty string"
